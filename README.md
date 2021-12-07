@@ -9,7 +9,7 @@ Below is the **data model** used in this project
 ![enter image description here](https://i.ibb.co/MMhdYh2/Database-ER-diagram-crow-s-foot.jpg)
 ## Instructions to Setup and Run
 - Use the below command to clone the repository from **Github**.
-> git clone
+> git clone https://github.com/saiakhilsreekakula/varo-backend-assessment.git
 - Use the below command to **build the application**.
 > mvnw clean install -DskipTests
 - Run the below Docker compose command to build image.
