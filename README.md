@@ -19,7 +19,7 @@ Below is the **data model** used in this project
 
 This will first create the database and run the migrations in **init.sql** and creates all the required tables, indexes,triggers etc. It will also load the data from local volumes if any. Later, it will **start the spring boot** application once database is initialized.
 ## Testing the APIs
-Please Use the below curl commands for Windows systems:
+Please Use the below curl commands for Windows:
 - Upsert User
 > curl --location --request POST "http://localhost:8080/upsertUser" --header "Content-Type: application/json" --data-raw "{    \\"userId\\":\\"saiakhil\\", \\"firstName\\":\\"Sai Akhil\\", \\"lastName\\":\\"Sreekakula\\", \\"email\\":\\"saiakhil29@gmail.com\\", \\"phoneNumber\\":\\"2108952571\\", \\"address\\": { \\"addressLine1\\":\\"3505 Telford Street\\", \\"addressLine2\\":\\"Apt 2\\", \\"city\\":\\"Cincinnati\\", \\"state\\":\\"Ohio\\", \\"zipCode\\":\\"45220\\"}}"
 - IsUserExists
