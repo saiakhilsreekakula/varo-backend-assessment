@@ -89,3 +89,9 @@ CREATE TRIGGER address_changes
   ON address
   FOR EACH ROW
   EXECUTE PROCEDURE audit_address_changes();
+
+CREATE INDEX idx_users_user_id
+ON users(user_id);
+
+CREATE INDEX idx_users_email
+ON users(email);
